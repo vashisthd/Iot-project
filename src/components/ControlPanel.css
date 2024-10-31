@@ -1,0 +1,45 @@
+.control-panel {
+    background-color: #f0f4f8; /* Light gray-blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.control-panel h2 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.control-button {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.control-button.on {
+    background-color: #4CAF50; /* Green color */
+}
+
+.control-button.off {
+    background-color: #f44336; /* Red color */
+}
+
+.control-button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.control-button:active {
+    transform: scale(1); /* Return to normal size on click */
+}
